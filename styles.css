@@ -650,16 +650,12 @@ section {
     
     .nav-menu li {
         margin: 0;
-        border-bottom: 1px solid #f5f5f5;
-    }
-    
-    .nav-menu li:last-child {
         border-bottom: none;
     }
     
     .nav-link {
         display: block;
-        padding: 8px 30px;
+        padding: 4px 30px;
         color: var(--text-dark);
         font-weight: 500;
         font-size: 16px;
@@ -667,6 +663,7 @@ section {
         letter-spacing: 0.5px;
         transition: var(--transition-normal);
         border: none;
+        line-height: 1.2;
     }
     
     .nav-link:hover {
