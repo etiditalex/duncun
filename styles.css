@@ -659,7 +659,7 @@ section {
     
     .nav-link {
         display: block;
-        padding: 12px 30px;
+        padding: 8px 30px;
         color: var(--text-dark);
         font-weight: 500;
         font-size: 16px;
