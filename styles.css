@@ -345,7 +345,7 @@ section {
 
 /* Achievements Section */
 .achievements {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
 }
 
 .achievements-grid {
@@ -424,7 +424,7 @@ section {
 
 /* Expertise Section */
 .expertise {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
 }
 
 .expertise-grid {
@@ -475,7 +475,7 @@ section {
 
 /* CTA Section */
 .cta {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
     color: white;
     text-align: center;
 }
@@ -768,7 +768,7 @@ section {
 
 /* Leadership Roles */
 .leadership-roles {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -902,7 +902,7 @@ section {
 
 /* Vision & Mission */
 .vision-mission {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -1173,7 +1173,7 @@ section {
 
 /* Career Timeline */
 .career-timeline {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -1397,7 +1397,7 @@ section {
 
 /* Personal Philosophy */
 .personal-philosophy {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -1592,7 +1592,7 @@ section {
 
 /* Healthcare Impact */
 .healthcare-impact {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -1762,7 +1762,7 @@ section {
 
 /* Community Programs */
 .community-programs {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -1909,7 +1909,7 @@ section {
 
 /* Future Vision */
 .future-vision {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
@@ -2207,7 +2207,7 @@ section {
 
 /* Organizations Section */
 .organizations-section {
-    background: var(--background-light);
+    background: linear-gradient(135deg, var(--background-light) 0%, rgba(45, 171, 225, 0.05) 100%);
     padding: var(--spacing-20) 0;
 }
 
