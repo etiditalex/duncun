@@ -6,7 +6,7 @@
 }
 
 :root {
-    /* Color Palette - Professional and Modern */
+    /* Color Palette - Extracted from Duncun Motanya's Logo */
     --primary-color: #1a365d;
     --secondary-color: #2dabe1;
     --accent-color: #ec1c26;
@@ -163,7 +163,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--background-light) 0%, var(--background-white) 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--background-white) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -634,7 +634,7 @@ section {
         text-align: center;
         transition: 0.3s;
         box-shadow: var(--shadow-medium);
-        padding: var(--spacing-8) 0;
+        padding: var(--spacing-4) 0;
     }
     
     .nav-menu.active {
@@ -642,7 +642,7 @@ section {
     }
     
     .nav-menu li {
-        margin: var(--spacing-4) 0;
+        margin: var(--spacing-2) 0;
     }
     
     .hero-content {
@@ -702,7 +702,7 @@ section {
 /* Page Header Styles */
 .page-header {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
     color: white;
     text-align: center;
 }
