@@ -41,7 +41,6 @@ A modern, fully static Next.js website showcasing Duncun Motanya's leadership in
 │   ├── Header.tsx
 │   ├── Hero.tsx
 │   ├── ImpactCounter.tsx
-│   ├── PageTransition.tsx
 │   ├── PostCard.tsx
 │   ├── SectionHeader.tsx
 │   └── StatCard.tsx
@@ -82,8 +81,8 @@ A modern, fully static Next.js website showcasing Duncun Motanya's leadership in
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/duncun-motanya-website.git
-   cd duncun-motanya-website
+   git clone https://github.com/etiditalex/duncun.git
+   cd duncun
    ```
 
 2. **Install dependencies**
