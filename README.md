@@ -282,3 +282,6 @@ This project is proprietary and confidential. All rights reserved.
 **Built with ❤️ for Duncun Motanya**  
 *Empowering Communities through Health & Fintech*
 
+---
+*Last updated: $(Get-Date)*
+
