@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://duncunmotanya.com/sitemap.xml
+Sitemap: https://iamduncun.co.ke/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
@@ -21,4 +21,7 @@ Allow: /healthcare
 Allow: /news
 Allow: /gallery
 Allow: /contact
+
+# Host
+Host: https://iamduncun.co.ke
 

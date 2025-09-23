@@ -20,12 +20,30 @@ import {
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Fintech Leadership - Duncun Motanya',
-  description: 'Chairperson of Fintech Association of Kenya. Leading digital inclusion, MSME growth, RegTech innovation, and policy advocacy in Kenya\'s fintech ecosystem.',
+  title: 'Fintech Leadership - Duncun Motanya | FINTAK Chairperson & Digital Inclusion Pioneer',
+  description: 'Explore Duncun Motanya\'s leadership as Chairperson of Fintech Association of Kenya. Driving digital financial inclusion, MSME growth, RegTech innovation, and fintech policy advocacy across Kenya.',
+  keywords: 'Fintech Kenya, FINTAK Chairperson, Digital Financial Inclusion, RegTech Innovation, MSME Growth, Fintech Policy Kenya, Digital Banking, Mobile Money, Financial Technology Kenya, Duncun Motanya Fintech',
   openGraph: {
-    title: 'Fintech Leadership - Duncun Motanya',
-    description: 'Chairperson of Fintech Association of Kenya. Leading digital inclusion, MSME growth, RegTech innovation, and policy advocacy in Kenya\'s fintech ecosystem.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_6_avxdks.jpg'],
+    title: 'Fintech Leadership - Duncun Motanya | FINTAK Chairperson & Digital Inclusion Pioneer',
+    description: 'Explore Duncun Motanya\'s leadership as Chairperson of Fintech Association of Kenya. Driving digital financial inclusion, MSME growth, RegTech innovation, and fintech policy advocacy across Kenya.',
+    url: 'https://iamduncun.co.ke/fintech',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - FINTAK Chairperson and Fintech Leader',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fintech Leadership - Duncun Motanya | FINTAK Chairperson & Digital Inclusion Pioneer',
+    description: 'Explore Duncun Motanya\'s leadership as Chairperson of Fintech Association of Kenya. Driving digital financial inclusion, MSME growth, RegTech innovation, and fintech policy advocacy across Kenya.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/fintech',
   },
 }
 

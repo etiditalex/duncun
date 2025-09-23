@@ -11,12 +11,30 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Gallery - Duncun Motanya',
-  description: 'Photos and moments from Duncun Motanya\'s work in fintech leadership, healthcare advocacy, and community impact across Kenya.',
+  title: 'Gallery - Duncun Motanya | Photos from Fintech & Healthcare Events',
+  description: 'Explore photos and moments from Duncun Motanya\'s work in fintech leadership, healthcare advocacy, and community impact across Kenya. See behind-the-scenes of FINTAK events, healthcare initiatives, and community programs.',
+  keywords: 'Duncun Motanya Photos, Fintech Events Kenya, Healthcare Events, Community Programs Kenya, FINTAK Gallery, DMMC Pharmacy Events, Diabetes Education Photos, Kenya Healthcare Gallery',
   openGraph: {
-    title: 'Gallery - Duncun Motanya',
-    description: 'Photos and moments from Duncun Motanya\'s work in fintech leadership, healthcare advocacy, and community impact across Kenya.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528073/DM_3_m4tmaf.jpg'],
+    title: 'Gallery - Duncun Motanya | Photos from Fintech & Healthcare Events',
+    description: 'Explore photos and moments from Duncun Motanya\'s work in fintech leadership, healthcare advocacy, and community impact across Kenya. See behind-the-scenes of FINTAK events, healthcare initiatives, and community programs.',
+    url: 'https://iamduncun.co.ke/gallery',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - Gallery of Fintech and Healthcare Events',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gallery - Duncun Motanya | Photos from Fintech & Healthcare Events',
+    description: 'Explore photos and moments from Duncun Motanya\'s work in fintech leadership, healthcare advocacy, and community impact across Kenya. See behind-the-scenes of FINTAK events, healthcare initiatives, and community programs.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/gallery',
   },
 }
 

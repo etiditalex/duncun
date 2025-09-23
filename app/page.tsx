@@ -11,6 +11,35 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Duncun Motanya - Healthcare & Fintech Leader | Empowering Communities in Kenya',
+  description: 'Meet Duncun Motanya, Chairperson of Fintech Association of Kenya and Founder of DMMC Online Pharmacy. Leading digital inclusion and healthcare innovation across Kenya.',
+  keywords: 'Duncun Motanya, Fintech Kenya, Healthcare Innovation, Diabetes Education, Digital Financial Inclusion, DMMC Pharmacy, FINTAK Chairperson, Kenya Healthcare, Community Development',
+  openGraph: {
+    title: 'Duncun Motanya - Healthcare & Fintech Leader | Empowering Communities in Kenya',
+    description: 'Meet Duncun Motanya, Chairperson of Fintech Association of Kenya and Founder of DMMC Online Pharmacy. Leading digital inclusion and healthcare innovation across Kenya.',
+    url: 'https://iamduncun.co.ke',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - Healthcare and Fintech Leader in Kenya',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Duncun Motanya - Healthcare & Fintech Leader | Empowering Communities in Kenya',
+    description: 'Meet Duncun Motanya, Chairperson of Fintech Association of Kenya and Founder of DMMC Online Pharmacy. Leading digital inclusion and healthcare innovation across Kenya.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke',
+  },
+}
 
 export default function Home() {
   const highlights = [

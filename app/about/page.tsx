@@ -14,12 +14,30 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Duncun Motanya - Healthcare & Fintech Leader',
-  description: 'Learn about Duncun Motanya\'s journey as a Diabetes Educator, Marketer, and Life Student. Founder of DMMC Online Pharmacy, Chairperson of Fintech Association of Kenya, and community advocate.',
+  title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
+  description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
+  keywords: 'Duncun Motanya Biography, Healthcare Leader Kenya, Fintech Pioneer, Diabetes Educator, DMMC Pharmacy Founder, FINTAK Chairperson, Community Development, Kenya Healthcare Innovation',
   openGraph: {
-    title: 'About Duncun Motanya - Healthcare & Fintech Leader',
-    description: 'Learn about Duncun Motanya\'s journey as a Diabetes Educator, Marketer, and Life Student. Founder of DMMC Online Pharmacy, Chairperson of Fintech Association of Kenya, and community advocate.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528065/DM_1_obizjh.jpg'],
+    title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
+    description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
+    url: 'https://iamduncun.co.ke/about',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - Healthcare and Fintech Leader Biography',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
+    description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/about',
   },
 }
 

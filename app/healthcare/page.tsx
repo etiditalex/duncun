@@ -21,12 +21,30 @@ import {
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Healthcare & Community Impact - Duncun Motanya',
-  description: 'Diabetes education, DMMC Online Pharmacy, DMRC Kenya. Providing affordable healthcare access, chronic disease management, and community outreach across Kenya.',
+  title: 'Healthcare & Community Impact - Duncun Motanya | DMMC Pharmacy & Diabetes Education',
+  description: 'Discover Duncun Motanya\'s healthcare initiatives including DMMC Online Pharmacy, DMRC Kenya diabetes education, and community health programs across Kenya. Affordable healthcare access and chronic disease management.',
+  keywords: 'Healthcare Kenya, DMMC Online Pharmacy, Diabetes Education Kenya, DMRC Kenya, Chronic Disease Management, Healthcare Access Kenya, Community Health Programs, Diabetes Support Groups, Affordable Healthcare Kenya, Duncun Motanya Healthcare',
   openGraph: {
-    title: 'Healthcare & Community Impact - Duncun Motanya',
-    description: 'Diabetes education, DMMC Online Pharmacy, DMRC Kenya. Providing affordable healthcare access, chronic disease management, and community outreach across Kenya.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_2_ahfkyb.jpg'],
+    title: 'Healthcare & Community Impact - Duncun Motanya | DMMC Pharmacy & Diabetes Education',
+    description: 'Discover Duncun Motanya\'s healthcare initiatives including DMMC Online Pharmacy, DMRC Kenya diabetes education, and community health programs across Kenya. Affordable healthcare access and chronic disease management.',
+    url: 'https://iamduncun.co.ke/healthcare',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - Healthcare and Community Impact Leader',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Healthcare & Community Impact - Duncun Motanya | DMMC Pharmacy & Diabetes Education',
+    description: 'Discover Duncun Motanya\'s healthcare initiatives including DMMC Online Pharmacy, DMRC Kenya diabetes education, and community health programs across Kenya. Affordable healthcare access and chronic disease management.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/healthcare',
   },
 }
 

@@ -13,12 +13,30 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact & Partnership - Duncun Motanya',
-  description: 'Get in touch with Duncun Motanya for healthcare support, fintech collaboration, community partnerships, or speaking engagements.',
+  title: 'Contact & Partnership - Duncun Motanya | Healthcare & Fintech Collaboration',
+  description: 'Connect with Duncun Motanya for healthcare support, fintech collaboration, community partnerships, or speaking engagements. Contact the FINTAK Chairperson and DMMC Pharmacy founder for business opportunities.',
+  keywords: 'Contact Duncun Motanya, Healthcare Partnership Kenya, Fintech Collaboration, Speaking Engagements Kenya, Business Partnership, DMMC Pharmacy Contact, FINTAK Contact, Healthcare Support Kenya',
   openGraph: {
-    title: 'Contact & Partnership - Duncun Motanya',
-    description: 'Get in touch with Duncun Motanya for healthcare support, fintech collaboration, community partnerships, or speaking engagements.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_4_zjw2mp.jpg'],
+    title: 'Contact & Partnership - Duncun Motanya | Healthcare & Fintech Collaboration',
+    description: 'Connect with Duncun Motanya for healthcare support, fintech collaboration, community partnerships, or speaking engagements. Contact the FINTAK Chairperson and DMMC Pharmacy founder for business opportunities.',
+    url: 'https://iamduncun.co.ke/contact',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Duncun Motanya - Healthcare and Fintech Leader',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact & Partnership - Duncun Motanya | Healthcare & Fintech Collaboration',
+    description: 'Connect with Duncun Motanya for healthcare support, fintech collaboration, community partnerships, or speaking engagements. Contact the FINTAK Chairperson and DMMC Pharmacy founder for business opportunities.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/contact',
   },
 }
 

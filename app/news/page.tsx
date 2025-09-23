@@ -11,12 +11,30 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'News & Insights - Duncun Motanya',
-  description: 'Latest insights on fintech innovation, healthcare access, community impact, and entrepreneurship from Duncun Motanya.',
+  title: 'News & Insights - Duncun Motanya | Fintech & Healthcare Articles',
+  description: 'Stay updated with Duncun Motanya\'s latest insights on fintech innovation, healthcare access, community impact, and entrepreneurship in Kenya. Expert articles on digital financial inclusion and healthcare innovation.',
+  keywords: 'Fintech News Kenya, Healthcare Insights, Digital Financial Inclusion Articles, Community Development Kenya, Entrepreneurship Kenya, Healthcare Innovation, Diabetes Education News, Duncun Motanya Blog',
   openGraph: {
-    title: 'News & Insights - Duncun Motanya',
-    description: 'Latest insights on fintech innovation, healthcare access, community impact, and entrepreneurship from Duncun Motanya.',
-    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_4_zjw2mp.jpg'],
+    title: 'News & Insights - Duncun Motanya | Fintech & Healthcare Articles',
+    description: 'Stay updated with Duncun Motanya\'s latest insights on fintech innovation, healthcare access, community impact, and entrepreneurship in Kenya. Expert articles on digital financial inclusion and healthcare innovation.',
+    url: 'https://iamduncun.co.ke/news',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png',
+        width: 1200,
+        height: 630,
+        alt: 'Duncun Motanya - News and Insights on Fintech and Healthcare',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'News & Insights - Duncun Motanya | Fintech & Healthcare Articles',
+    description: 'Stay updated with Duncun Motanya\'s latest insights on fintech innovation, healthcare access, community impact, and entrepreneurship in Kenya. Expert articles on digital financial inclusion and healthcare innovation.',
+    images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke/news',
   },
 }
 

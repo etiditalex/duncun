@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
   description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya. Empowering communities through healthcare and financial technology.',
-  keywords: 'Duncun Motanya, Fintech, Healthcare, Diabetes Education, Kenya, FINTAK, DMMC Online Pharmacy, Executive Funeral Services',
+  keywords: 'Duncun Motanya, Fintech, Healthcare, Diabetes Education, Kenya, FINTAK, DMMC Online Pharmacy, Executive Funeral Services, Digital Financial Inclusion, Healthcare Innovation, Community Development',
   authors: [{ name: 'Duncun Motanya' }],
   creator: 'Duncun Motanya',
   publisher: 'Duncun Motanya',
@@ -28,18 +28,18 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://duncunmotanya.com'),
+  metadataBase: new URL('https://iamduncun.co.ke'),
   openGraph: {
     title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
     description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya.',
-    url: 'https://duncunmotanya.com',
+    url: 'https://iamduncun.co.ke',
     siteName: 'Duncun Motanya',
     images: [
       {
         url: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1756953563/Duncun-motanya_u3ulci.png',
         width: 1200,
         height: 630,
-        alt: 'Duncun Motanya',
+        alt: 'Duncun Motanya - Healthcare and Fintech Leader',
       },
     ],
     locale: 'en_US',
@@ -50,6 +50,7 @@ export const metadata: Metadata = {
     title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
     description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya.',
     images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1756953563/Duncun-motanya_u3ulci.png'],
+    creator: '@duncunmotanya',
   },
   robots: {
     index: true,
@@ -64,6 +65,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'your-google-verification-code',
+  },
+  alternates: {
+    canonical: 'https://iamduncun.co.ke',
   },
 }
 
