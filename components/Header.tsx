@@ -56,7 +56,7 @@ const Header = () => {
                 className={`text-sm font-medium transition-colors duration-200 ${
                   pathname === item.href
                     ? isScrolled ? 'text-primary-500' : 'text-white'
-                    : isScrolled ? 'text-gray-700 hover:text-primary-500' : 'text-white/90 hover:text-white'
+                    : isScrolled ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
                 }`}
               >
                 {item.name}
@@ -68,7 +68,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             {/* Language Toggle */}
             <div className={`hidden sm:flex items-center space-x-2 text-sm transition-colors duration-300 ${
-              isScrolled ? 'text-gray-600' : 'text-white/90'
+              isScrolled ? 'text-gray-800' : 'text-white/90'
             }`}>
               <Globe className="w-4 h-4" />
               <span className="font-medium">EN</span>
@@ -81,7 +81,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`lg:hidden p-2 rounded-md transition-colors ${
                 isScrolled 
-                  ? 'text-gray-700 hover:text-primary-500 hover:bg-gray-100' 
+                  ? 'text-gray-800 hover:text-primary-500 hover:bg-gray-100' 
                   : 'text-white hover:text-white/90 hover:bg-white/10'
               }`}
               aria-label="Toggle menu"
