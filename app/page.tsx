@@ -132,24 +132,33 @@ export default function Home() {
             <div>
               <SectionHeader
                 title="About Duncun Motanya"
-                subtitle="Leadership & Vision"
-                description="A dedicated leader combining healthcare expertise with fintech innovation to create meaningful impact across Kenya."
+                subtitle="Dynamic Leader & People-Centered Catalyst"
+                description="A dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth."
                 centered={false}
               />
               
-              <div className="mt-8 space-y-4">
-                <p className="text-gray-600 leading-relaxed">
-                  As a Diabetes Educator, Marketer, and Life Student, I've dedicated my career to 
-                  empowering communities through innovative healthcare solutions and financial technology. 
-                  Based in Nairobi and originally from Kisii, Kenya, I believe in the power of 
-                  accessible healthcare and inclusive financial services.
-                </p>
-                
-                <p className="text-gray-600 leading-relaxed">
-                  Through my various leadership roles and entrepreneurial ventures, I've worked to 
-                  bridge the gap between traditional healthcare delivery and modern technology, 
-                  ensuring that quality care reaches those who need it most.
-                </p>
+              <div className="mt-8 space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Duncun Motanya is a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. At his core, he is a Coach—deeply invested in nurturing potential and empowering others to achieve their best. Colleagues and partners can expect him to actively support their growth, push them to stretch beyond limits, and remain committed to seeing talent fully realized rather than wasted.
+                  </p>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    He combines this with strong Empathy, making him adept at understanding people's emotions and motivations. His instinct to consider human impact ensures he builds trust quickly and fosters meaningful relationships. This empathetic side balances his pragmatic and driven qualities, enabling him to motivate while still respecting different perspectives.
+                  </p>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    As a Self-Believer, Duncun is independent and decisive, with a strong internal compass that drives his confidence. He rarely hesitates when conviction strikes, inspiring others through his certainty. However, this self-assurance can sometimes make him resistant to external control or prescriptive approaches—he values autonomy and thrives when given room to act on his vision.
+                  </p>
+                  
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Intellectually, Duncun is a Philomath—a lifelong learner with a genuine curiosity for ideas, systems, and innovations. He explores widely, seeking knowledge that sharpens his perspective and enriches his leadership. Partners and colleagues can expect him to bring depth, new insights, and a hunger for continuous growth into every engagement.
+                  </p>
+                  
+                  <p className="text-gray-600 leading-relaxed">
+                    He is also a natural Catalyst, wired to get things moving and break stagnation. He creates momentum where others may hesitate and thrives in environments that require fresh starts, bold initiatives, or turning ideas into tangible outcomes. His challenge, however, lies in patience; he dislikes delays and may find prolonged processes or "wasted time" frustrating.
+                  </p>
+                </div>
               </div>
 
               <div className="mt-8">
