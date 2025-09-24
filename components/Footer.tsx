@@ -1,11 +1,17 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
+import NewsCarousel from './NewsCarousel'
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom section-padding">
+        {/* News Updates Section */}
+        <div className="mb-12">
+          <NewsCarousel />
+        </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
