@@ -142,13 +142,13 @@ export default function Home() {
               
               <div className="mt-8 space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-                  I am a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. 
-                  At my core, I am a Coach—deeply invested in nurturing potential and empowering others to achieve their best.
+                  Duncun is a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. 
+                  At his core, he is a Coach—deeply invested in nurturing potential and empowering others to achieve their best.
                 </p>
                 
                 <p className="text-gray-600 leading-relaxed">
-                  I combine strong Empathy with decisive leadership, making me adept at understanding people's emotions while maintaining 
-                  the confidence to act on my vision. As a Self-Believer, Philomath, and natural Catalyst, I bring energy, clarity, 
+                  He combines strong Empathy with decisive leadership, making him adept at understanding people's emotions while maintaining 
+                  the confidence to act on his vision. As a Self-Believer, Philomath, and natural Catalyst, he brings energy, clarity, 
                   and a people-first mindset to every engagement.
                 </p>
                 

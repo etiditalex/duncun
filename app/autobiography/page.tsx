@@ -188,17 +188,17 @@ export default function Autobiography() {
           
           <div className="mt-12 space-y-8">
             <div className="bg-white rounded-xl p-8 shadow-lg">
-              <h3 className="text-2xl font-heading font-bold text-gray-900 mb-6">Who I Am</h3>
+              <h3 className="text-2xl font-heading font-bold text-gray-900 mb-6">Who He Is</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                I am a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. 
-                At my core, I am a Coach—deeply invested in nurturing potential and empowering others to achieve their best. 
-                Colleagues and partners can expect me to actively support their growth, push them to stretch beyond limits, 
+                Duncun is a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. 
+                At his core, he is a Coach—deeply invested in nurturing potential and empowering others to achieve their best. 
+                Colleagues and partners can expect him to actively support their growth, push them to stretch beyond limits, 
                 and remain committed to seeing talent fully realized rather than wasted.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                I combine this with strong Empathy, making me adept at understanding people's emotions and motivations. 
-                My instinct to consider human impact ensures I build trust quickly and foster meaningful relationships. 
-                This empathetic side balances my pragmatic and driven qualities, enabling me to motivate while still respecting different perspectives.
+                He combines this with strong Empathy, making him adept at understanding people's emotions and motivations. 
+                His instinct to consider human impact ensures he builds trust quickly and fosters meaningful relationships. 
+                This empathetic side balances his pragmatic and driven qualities, enabling him to motivate while still respecting different perspectives.
               </p>
             </div>
           </div>
@@ -304,22 +304,22 @@ export default function Autobiography() {
             <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-heading font-bold mb-4">Self-Believer</h3>
               <p className="text-lg leading-relaxed mb-4">
-                I am independent and decisive, with a strong internal compass that drives my confidence. 
-                I rarely hesitate when conviction strikes, inspiring others through my certainty.
+                He is independent and decisive, with a strong internal compass that drives his confidence. 
+                He rarely hesitates when conviction strikes, inspiring others through his certainty.
               </p>
               <p className="text-lg leading-relaxed">
-                However, this self-assurance can sometimes make me resistant to external control or prescriptive approaches—I value autonomy and thrive when given room to act on my vision.
+                However, this self-assurance can sometimes make him resistant to external control or prescriptive approaches—he values autonomy and thrives when given room to act on his vision.
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-heading font-bold mb-4">Philomath</h3>
               <p className="text-lg leading-relaxed mb-4">
-                I am a lifelong learner with a genuine curiosity for ideas, systems, and innovations. 
-                I explore widely, seeking knowledge that sharpens my perspective and enriches my leadership.
+                He is a lifelong learner with a genuine curiosity for ideas, systems, and innovations. 
+                He explores widely, seeking knowledge that sharpens his perspective and enriches his leadership.
               </p>
               <p className="text-lg leading-relaxed">
-                Partners and colleagues can expect me to bring depth, new insights, and a hunger for continuous growth into every engagement.
+                Partners and colleagues can expect him to bring depth, new insights, and a hunger for continuous growth into every engagement.
               </p>
             </div>
           </div>
@@ -343,9 +343,9 @@ export default function Autobiography() {
               
               <div className="space-y-6">
                 <p className="text-gray-600 leading-relaxed text-lg">
-                  I create momentum where others may hesitate and thrive in environments that require fresh starts, 
-                  bold initiatives, or turning ideas into tangible outcomes. My challenge, however, lies in patience; 
-                  I dislike delays and may find prolonged processes or "wasted time" frustrating.
+                  He creates momentum where others may hesitate and thrives in environments that require fresh starts, 
+                  bold initiatives, or turning ideas into tangible outcomes. His challenge, however, lies in patience; 
+                  he dislikes delays and may find prolonged processes or "wasted time" frustrating.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -381,7 +381,7 @@ export default function Autobiography() {
           <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 text-center text-white">
             <h3 className="text-2xl font-heading font-bold mb-4">Ready to Collaborate?</h3>
             <p className="text-lg mb-6">
-              I bring both the drive to act and the sensitivity to connect, making me a partner who inspires confidence while keeping humanity at the center of progress.
+              He brings both the drive to act and the sensitivity to connect, making him a partner who inspires confidence while keeping humanity at the center of progress.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/contact" className="bg-white text-primary-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
