@@ -122,12 +122,12 @@ export default function About() {
                 <div className="bg-white rounded-xl p-6 shadow-lg">
                   <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">360° Leadership Profile</h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    At his core, Duncun is a <strong>Coach</strong>—deeply invested in nurturing potential and empowering others to achieve their best. 
-                    He actively supports growth, pushes people to stretch beyond limits, and remains committed to seeing talent fully realized rather than wasted.
+                    At my core, I am a <strong>Coach</strong>—deeply invested in nurturing potential and empowering others to achieve their best. 
+                    I actively support growth, push people to stretch beyond limits, and remain committed to seeing talent fully realized rather than wasted.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    He combines this with strong <strong>Empathy</strong>, making him adept at understanding people's emotions and motivations. 
-                    His instinct to consider human impact ensures he builds trust quickly and fosters meaningful relationships.
+                    I combine this with strong <strong>Empathy</strong>, making me adept at understanding people's emotions and motivations. 
+                    My instinct to consider human impact ensures I build trust quickly and foster meaningful relationships.
                   </p>
                 </div>
                 
@@ -206,13 +206,13 @@ export default function About() {
         </div>
       </section>
 
-      {/* How He Works Best */}
+      {/* How I Work Best */}
       <section className="section-padding">
         <div className="container-custom">
           <SectionHeader
-            title="How He Works Best"
+            title="How I Work Best"
             subtitle="Collaborative Excellence"
-            description="Understanding Duncun's optimal working environment and what to expect when partnering with him."
+            description="Understanding my optimal working environment and what to expect when partnering with me."
           />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -222,7 +222,7 @@ export default function About() {
               </div>
               <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">Collaborative Environments</h3>
               <p className="text-gray-600 text-sm">
-                Thrives in environments where learning and innovation are valued, with the freedom to act decisively and inspire growth.
+                I thrive in environments where learning and innovation are valued, with the freedom to act decisively and inspire growth.
               </p>
             </div>
             
@@ -232,7 +232,7 @@ export default function About() {
               </div>
               <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">What to Expect</h3>
               <p className="text-gray-600 text-sm">
-                Energy, clarity, curiosity, and a people-first mindset. Brings both the drive to act and the sensitivity to connect.
+                Energy, clarity, curiosity, and a people-first mindset. I bring both the drive to act and the sensitivity to connect.
               </p>
             </div>
             
@@ -242,7 +242,7 @@ export default function About() {
               </div>
               <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">Watch-Outs</h3>
               <p className="text-gray-600 text-sm">
-                May be impatient with bureaucracy or slow processes; can resist being micromanaged; needs balance between empathy and logic.
+                I may be impatient with bureaucracy or slow processes; I can resist being micromanaged; I need balance between empathy and logic.
               </p>
             </div>
           </div>
