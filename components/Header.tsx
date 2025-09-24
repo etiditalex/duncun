@@ -27,6 +27,7 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
+    { name: 'Autobiography', href: '/autobiography' },
     { name: 'Fintech Leadership', href: '/fintech' },
     { name: 'Healthcare & Community', href: '/healthcare' },
     { name: 'News & Insights', href: '/news' },

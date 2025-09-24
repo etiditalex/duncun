@@ -7,7 +7,10 @@ import {
   Users, 
   Building2, 
   ArrowRight,
-  CheckCircle 
+  CheckCircle,
+  Shield,
+  Lightbulb,
+  Target
 } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -137,33 +140,58 @@ export default function Home() {
                 centered={false}
               />
               
-              <div className="mt-8 space-y-6">
-                <div className="bg-white rounded-xl p-6 shadow-lg">
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    Duncun Motanya is a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. At his core, he is a Coach—deeply invested in nurturing potential and empowering others to achieve their best. Colleagues and partners can expect him to actively support their growth, push them to stretch beyond limits, and remain committed to seeing talent fully realized rather than wasted.
-                  </p>
-                  
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    He combines this with strong Empathy, making him adept at understanding people's emotions and motivations. His instinct to consider human impact ensures he builds trust quickly and fosters meaningful relationships. This empathetic side balances his pragmatic and driven qualities, enabling him to motivate while still respecting different perspectives.
-                  </p>
-                  
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    As a Self-Believer, Duncun is independent and decisive, with a strong internal compass that drives his confidence. He rarely hesitates when conviction strikes, inspiring others through his certainty. However, this self-assurance can sometimes make him resistant to external control or prescriptive approaches—he values autonomy and thrives when given room to act on his vision.
-                  </p>
-                  
-                  <p className="text-gray-600 leading-relaxed mb-4">
-                    Intellectually, Duncun is a Philomath—a lifelong learner with a genuine curiosity for ideas, systems, and innovations. He explores widely, seeking knowledge that sharpens his perspective and enriches his leadership. Partners and colleagues can expect him to bring depth, new insights, and a hunger for continuous growth into every engagement.
-                  </p>
-                  
-                  <p className="text-gray-600 leading-relaxed">
-                    He is also a natural Catalyst, wired to get things moving and break stagnation. He creates momentum where others may hesitate and thrives in environments that require fresh starts, bold initiatives, or turning ideas into tangible outcomes. His challenge, however, lies in patience; he dislikes delays and may find prolonged processes or "wasted time" frustrating.
-                  </p>
+              <div className="mt-8 space-y-4">
+                <p className="text-gray-600 leading-relaxed">
+                  I am a dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. 
+                  At my core, I am a Coach—deeply invested in nurturing potential and empowering others to achieve their best.
+                </p>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  I combine strong Empathy with decisive leadership, making me adept at understanding people's emotions while maintaining 
+                  the confidence to act on my vision. As a Self-Believer, Philomath, and natural Catalyst, I bring energy, clarity, 
+                  and a people-first mindset to every engagement.
+                </p>
+                
+                <div className="mt-6 grid grid-cols-2 md:grid-cols-5 gap-4">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Heart className="w-6 h-6 text-green-600" />
+                    </div>
+                    <span className="text-sm font-medium text-gray-700">Coach</span>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Users className="w-6 h-6 text-blue-600" />
+                    </div>
+                    <span className="text-sm font-medium text-gray-700">Empath</span>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Shield className="w-6 h-6 text-purple-600" />
+                    </div>
+                    <span className="text-sm font-medium text-gray-700">Self-Believer</span>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Lightbulb className="w-6 h-6 text-yellow-600" />
+                    </div>
+                    <span className="text-sm font-medium text-gray-700">Philomath</span>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Target className="w-6 h-6 text-red-600" />
+                    </div>
+                    <span className="text-sm font-medium text-gray-700">Catalyst</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="mt-8">
-                <Link href="/about" className="btn-primary">
-                  Read Full Story
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <Link href="/autobiography" className="btn-primary">
+                  Read My Full Story
+                </Link>
+                <Link href="/about" className="btn-outline">
+                  Learn More
                 </Link>
               </div>
             </div>
