@@ -97,13 +97,13 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg">
-            <div className="px-4 py-6 space-y-4">
+          <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg w-full">
+            <div className="px-4 py-6 space-y-4 w-full max-w-full">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`block text-base font-medium transition-colors duration-200 ${
+                  className={`block text-base font-medium transition-colors duration-200 w-full ${
                     pathname === item.href
                       ? 'text-primary-500'
                       : 'text-gray-700 hover:text-primary-500'
@@ -115,7 +115,7 @@ const Header = () => {
               ))}
               
               {/* Mobile Language Toggle */}
-              <div className="flex items-center space-x-2 text-sm text-gray-600 pt-4 border-t border-gray-200">
+              <div className="flex items-center space-x-2 text-sm text-gray-600 pt-4 border-t border-gray-200 w-full">
                 <Globe className="w-4 h-4" />
                 <span className="font-medium">EN</span>
                 <span className="text-gray-400">|</span>

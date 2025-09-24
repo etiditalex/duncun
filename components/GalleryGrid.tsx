@@ -40,14 +40,14 @@ const GalleryGrid = ({ images, className = '' }: GalleryGridProps) => {
 
   return (
     <>
-      <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ${className}`}>
+      <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full max-w-full ${className}`}>
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative group cursor-pointer overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300"
+            className="relative group cursor-pointer overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-full"
             onClick={() => openLightbox(index)}
           >
-            <div className="relative w-full" style={{ aspectRatio: 'auto' }}>
+            <div className="relative w-full max-w-full" style={{ aspectRatio: 'auto' }}>
               <Image
                 src={image.src}
                 alt={image.alt}

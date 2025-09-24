@@ -55,10 +55,10 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-black">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-black w-full">
       {/* Content Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-16 lg:py-20 w-full">
           {/* Left Side - Text and Branding */}
           <div className="flex flex-col justify-center space-y-8">
             {/* Carousel Content */}
@@ -115,8 +115,8 @@ const Hero = () => {
           </div>
 
           {/* Right Side - Image Carousel */}
-          <div className="relative flex justify-center lg:justify-end">
-            <div className="relative w-64 h-80 lg:w-72 lg:h-96 overflow-hidden rounded-lg">
+          <div className="relative flex justify-center lg:justify-end w-full">
+            <div className="relative w-64 h-80 lg:w-72 lg:h-96 overflow-hidden rounded-lg max-w-full">
               {/* Carousel Images */}
               <div className="relative w-full h-full">
                 {slides.map((slide, index) => (
