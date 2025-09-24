@@ -128,12 +128,13 @@ export default function NewsCarousel() {
               <div className="flex flex-col md:flex-row gap-4">
                 {/* News Image */}
                 <div className="md:w-1/3">
-                  <div className="relative w-full h-48 md:h-32 rounded-lg overflow-hidden">
+                  <div className="relative w-full h-48 md:h-40 rounded-lg overflow-hidden bg-gray-700 flex items-center justify-center">
                     <Image
                       src={currentArticle.urlToImage}
                       alt={currentArticle.title}
-                      fill
-                      className="object-cover"
+                      width={300}
+                      height={200}
+                      className="object-contain object-center max-w-full max-h-full"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                   </div>
