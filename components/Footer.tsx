@@ -115,9 +115,14 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
-              © 2024 Duncun Motanya. All rights reserved.
-            </p>
+            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <p className="text-gray-400 text-sm">
+                © 2024 Duncun Motanya. All rights reserved.
+              </p>
+              <p className="text-gray-500 text-xs">
+                Built by Alex Etidit
+              </p>
+            </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-gray-400 hover:text-primary-400 transition-colors">
                 Privacy Policy
