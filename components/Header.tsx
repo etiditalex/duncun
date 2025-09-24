@@ -3,12 +3,13 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Globe } from 'lucide-react'
+import { Menu, X, Globe, ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const pathname = usePathname()
 
   // Check if current page has a dark hero section (home page)
@@ -26,8 +27,14 @@ const Header = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Autobiography', href: '/autobiography' },
+    { 
+      name: 'About', 
+      href: '/about',
+      dropdown: [
+        { name: 'About Me', href: '/about' },
+        { name: 'Autobiography', href: '/autobiography' }
+      ]
+    },
     { name: 'Fintech Leadership', href: '/fintech' },
     { name: 'Healthcare & Community', href: '/healthcare' },
     { name: 'News & Insights', href: '/news' },
@@ -55,17 +62,52 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={`text-sm font-medium transition-colors duration-200 ${
-                  pathname === item.href
-                    ? (isScrolled || !isHomePage) ? 'text-primary-500' : 'text-white'
-                    : (isScrolled || !isHomePage) ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
-                }`}
-              >
-                {item.name}
-              </Link>
+              <div key={item.name} className="relative">
+                {item.dropdown ? (
+                  <div
+                    className="relative"
+                    onMouseEnter={() => setActiveDropdown(item.name)}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
+                    <button
+                      className={`flex items-center space-x-1 text-sm font-medium transition-colors duration-200 ${
+                        pathname === item.href || pathname.startsWith(item.href)
+                          ? (isScrolled || !isHomePage) ? 'text-primary-500' : 'text-white'
+                          : (isScrolled || !isHomePage) ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
+                      }`}
+                    >
+                      <span>{item.name}</span>
+                      <ChevronDown className="w-4 h-4" />
+                    </button>
+                    
+                    {activeDropdown === item.name && (
+                      <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                        {item.dropdown.map((dropdownItem) => (
+                          <Link
+                            key={dropdownItem.name}
+                            href={dropdownItem.href}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary-500 transition-colors"
+                            onClick={() => setActiveDropdown(null)}
+                          >
+                            {dropdownItem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className={`text-sm font-medium transition-colors duration-200 ${
+                      pathname === item.href
+                        ? (isScrolled || !isHomePage) ? 'text-primary-500' : 'text-white'
+                        : (isScrolled || !isHomePage) ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
 
@@ -101,18 +143,43 @@ const Header = () => {
           <div className="lg:hidden bg-white border-t border-gray-200 shadow-lg w-full">
             <div className="px-4 py-6 space-y-4 w-full max-w-full">
               {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`block text-base font-medium transition-colors duration-200 w-full ${
-                    pathname === item.href
-                      ? 'text-primary-500'
-                      : 'text-gray-700 hover:text-primary-500'
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
+                <div key={item.name}>
+                  {item.dropdown ? (
+                    <div>
+                      <div className="text-base font-medium text-gray-700 mb-2">
+                        {item.name}
+                      </div>
+                      <div className="ml-4 space-y-2">
+                        {item.dropdown.map((dropdownItem) => (
+                          <Link
+                            key={dropdownItem.name}
+                            href={dropdownItem.href}
+                            className={`block text-sm transition-colors duration-200 w-full ${
+                              pathname === dropdownItem.href
+                                ? 'text-primary-500'
+                                : 'text-gray-600 hover:text-primary-500'
+                            }`}
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {dropdownItem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className={`block text-base font-medium transition-colors duration-200 w-full ${
+                        pathname === item.href
+                          ? 'text-primary-500'
+                          : 'text-gray-700 hover:text-primary-500'
+                      }`}
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
+                  )}
+                </div>
               ))}
               
               {/* Mobile Language Toggle */}
