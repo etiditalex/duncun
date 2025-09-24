@@ -67,13 +67,109 @@ const articles = {
     author: 'Duncun Motanya',
     readTime: '6 min read',
     tags: ['Healthcare', 'Rural Development', 'Technology', 'Community Health']
+  },
+  'regtech-kenya-financial-sector': {
+    title: 'The Role of RegTech in Kenya\'s Financial Sector',
+    excerpt: 'Understanding how regulatory technology is enabling innovation while ensuring compliance in Kenya\'s rapidly evolving financial services landscape.',
+    content: `
+      <p>As Kenya's financial sector continues to evolve, the intersection of technology and regulation has become increasingly important. RegTech, or regulatory technology, is playing a crucial role in enabling innovation while maintaining the integrity of our financial system.</p>
+      
+      <p>Through my work with the Fintech Association of Kenya, I've witnessed firsthand how RegTech solutions are transforming the way financial institutions operate and comply with regulations.</p>
+      
+      <h2>1. Automated Compliance Monitoring</h2>
+      <p>Traditional compliance monitoring is often manual, time-consuming, and prone to errors. RegTech solutions are automating these processes, enabling real-time monitoring of transactions and activities that may require regulatory attention.</p>
+      
+      <h2>2. Enhanced Risk Management</h2>
+      <p>Advanced analytics and machine learning algorithms are helping financial institutions better assess and manage risks. This is particularly important in Kenya's dynamic financial landscape, where new products and services are constantly emerging.</p>
+      
+      <h2>3. Streamlined Reporting</h2>
+      <p>Regulatory reporting has traditionally been a burden for financial institutions. RegTech solutions are streamlining this process, making it easier for institutions to meet their reporting obligations while reducing costs and improving accuracy.</p>
+      
+      <p>The key to successful RegTech implementation is collaboration between regulators, financial institutions, and technology providers. We need to work together to ensure that these solutions are effective, secure, and accessible to all players in the financial ecosystem.</p>
+      
+      <p>Looking ahead, I believe RegTech will play an even more important role in Kenya's financial sector. As we continue to innovate and expand financial services, we must ensure that our regulatory framework keeps pace with technological advances.</p>
+    `,
+    date: 'March 5, 2024',
+    image: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_5_gwxnpv.jpg',
+    category: 'Fintech',
+    author: 'Duncun Motanya',
+    readTime: '4 min read',
+    tags: ['RegTech', 'Compliance', 'Financial Services', 'Innovation']
+  },
+  'diabetes-education-empowering-patients-families': {
+    title: 'Diabetes Education: Empowering Patients and Families',
+    excerpt: 'The importance of comprehensive diabetes education in improving patient outcomes and supporting families dealing with chronic conditions.',
+    content: `
+      <p>Diabetes education is not just about teaching patients how to manage their condition; it's about empowering them to take control of their health and live fulfilling lives. Through DMRC Kenya, I've seen firsthand how proper education can transform lives.</p>
+      
+      <p>Our approach to diabetes education goes beyond traditional clinical instruction. We focus on practical, real-world strategies that patients and their families can implement in their daily lives.</p>
+      
+      <h2>1. Comprehensive Patient Education</h2>
+      <p>We provide comprehensive education covering all aspects of diabetes management, from understanding the condition to practical skills like blood glucose monitoring, medication management, and lifestyle modifications.</p>
+      
+      <h2>2. Family-Centered Approach</h2>
+      <p>Diabetes affects not just the patient, but the entire family. We involve family members in the education process, teaching them how to support their loved ones and recognize warning signs of complications.</p>
+      
+      <h2>3. Peer Support Networks</h2>
+      <p>We've found that peer support is incredibly powerful. Our support groups bring together patients and families who share similar experiences, creating a network of understanding and encouragement.</p>
+      
+      <h2>4. Continuous Learning</h2>
+      <p>Diabetes management is not a one-time lesson. We provide ongoing education and support, helping patients adapt to changes in their condition and stay up-to-date with the latest treatment options.</p>
+      
+      <p>The impact of proper diabetes education extends far beyond individual patients. It strengthens families, builds communities, and creates a foundation for better health outcomes across Kenya.</p>
+      
+      <p>As we continue to expand our education programs, I'm excited about the potential to reach even more patients and families, empowering them to live healthier, more fulfilling lives despite their diabetes diagnosis.</p>
+    `,
+    date: 'February 28, 2024',
+    image: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_4_zjw2mp.jpg',
+    category: 'Community',
+    author: 'Duncun Motanya',
+    readTime: '5 min read',
+    tags: ['Diabetes Education', 'Patient Care', 'Family Support', 'Community Health']
+  },
+  'entrepreneurship-healthcare-lessons-dmmc': {
+    title: 'Entrepreneurship in Healthcare: Lessons from Building DMMC',
+    excerpt: 'Key insights and lessons learned from founding and scaling DMMC Online Pharmacy, including challenges and opportunities in healthcare entrepreneurship.',
+    content: `
+      <p>Building DMMC Online Pharmacy has been one of the most challenging and rewarding experiences of my career. The journey from concept to reality has taught me invaluable lessons about entrepreneurship in the healthcare sector.</p>
+      
+      <p>Healthcare entrepreneurship is unique because it combines business acumen with a deep understanding of patient needs and regulatory requirements. Here are the key lessons I've learned along the way.</p>
+      
+      <h2>1. Understanding the Problem</h2>
+      <p>The first step in healthcare entrepreneurship is truly understanding the problem you're trying to solve. For DMMC, this meant recognizing the barriers to medication access in rural and underserved communities.</p>
+      
+      <h2>2. Regulatory Navigation</h2>
+      <p>Healthcare is heavily regulated, and navigating these regulations while maintaining innovation is a constant challenge. It's essential to work closely with regulatory bodies and stay informed about changing requirements.</p>
+      
+      <h2>3. Technology as an Enabler</h2>
+      <p>Technology should enhance, not replace, the human element of healthcare. Our platform is designed to make healthcare more accessible while maintaining the personal touch that patients need.</p>
+      
+      <h2>4. Community Engagement</h2>
+      <p>Success in healthcare entrepreneurship requires deep community engagement. We work closely with local leaders, healthcare providers, and patients to ensure our solutions meet real needs.</p>
+      
+      <h2>5. Sustainable Business Models</h2>
+      <p>Healthcare businesses must be sustainable to have lasting impact. This means finding the right balance between accessibility and profitability, ensuring that quality care remains affordable.</p>
+      
+      <p>The future of healthcare entrepreneurship in Kenya is bright. As technology continues to advance and healthcare needs evolve, there are countless opportunities to create innovative solutions that improve patient outcomes and strengthen our healthcare system.</p>
+      
+      <p>For aspiring healthcare entrepreneurs, my advice is simple: start with the problem, understand the regulations, leverage technology wisely, engage with communities, and build sustainable business models. The impact you can make is immeasurable.</p>
+    `,
+    date: 'February 20, 2024',
+    image: 'https://res.cloudinary.com/dyfnobo9r/image/upload/v1758528051/DM_1_obizjh.jpg',
+    category: 'Entrepreneurship',
+    author: 'Duncun Motanya',
+    readTime: '6 min read',
+    tags: ['Healthcare Entrepreneurship', 'DMMC Pharmacy', 'Innovation', 'Business Lessons']
   }
 }
 
 export async function generateStaticParams() {
   return [
     { slug: 'future-digital-financial-inclusion-kenya' },
-    { slug: 'sustainable-healthcare-ecosystems-rural-kenya' }
+    { slug: 'sustainable-healthcare-ecosystems-rural-kenya' },
+    { slug: 'regtech-kenya-financial-sector' },
+    { slug: 'diabetes-education-empowering-patients-families' },
+    { slug: 'entrepreneurship-healthcare-lessons-dmmc' }
   ]
 }
 
