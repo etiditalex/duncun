@@ -11,6 +11,10 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
 
+  // Check if current page has a dark hero section (home page)
+  const isHomePage = pathname === '/'
+  const hasDarkBackground = isHomePage && !isScrolled
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10)
@@ -32,7 +36,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled || !isHomePage ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -55,8 +59,8 @@ const Header = () => {
                 href={item.href}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   pathname === item.href
-                    ? isScrolled ? 'text-primary-500' : 'text-white'
-                    : isScrolled ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
+                    ? (isScrolled || !isHomePage) ? 'text-primary-500' : 'text-white'
+                    : (isScrolled || !isHomePage) ? 'text-gray-800 hover:text-primary-500' : 'text-white/90 hover:text-white'
                 }`}
               >
                 {item.name}
@@ -68,19 +72,19 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             {/* Language Toggle */}
             <div className={`hidden sm:flex items-center space-x-2 text-sm transition-colors duration-300 ${
-              isScrolled ? 'text-gray-800' : 'text-white/90'
+              (isScrolled || !isHomePage) ? 'text-gray-800' : 'text-white/90'
             }`}>
               <Globe className="w-4 h-4" />
               <span className="font-medium">EN</span>
-              <span className={isScrolled ? 'text-gray-400' : 'text-white/60'}>|</span>
-              <span className={isScrolled ? 'text-gray-400' : 'text-white/60'}>SW</span>
+              <span className={(isScrolled || !isHomePage) ? 'text-gray-400' : 'text-white/60'}>|</span>
+              <span className={(isScrolled || !isHomePage) ? 'text-gray-400' : 'text-white/60'}>SW</span>
             </div>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`lg:hidden p-2 rounded-md transition-colors ${
-                isScrolled 
+                (isScrolled || !isHomePage)
                   ? 'text-gray-800 hover:text-primary-500 hover:bg-gray-100' 
                   : 'text-white hover:text-white/90 hover:bg-white/10'
               }`}
