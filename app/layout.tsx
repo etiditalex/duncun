@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
-  description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya. Empowering communities through healthcare and financial technology.',
-  keywords: 'Duncun Motanya, Fintech, Healthcare, Diabetes Education, Kenya, FINTAK, DMMC Online Pharmacy, Executive Funeral Services, Digital Financial Inclusion, Healthcare Innovation, Community Development',
+  title: 'Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+  description: 'Dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst empowering communities through healthcare and fintech.',
+  keywords: 'Duncun Motanya, Dynamic Leader, Coach, Empathy, Self-Believer, Philomath, Catalyst, People-Centered Growth, Motivator, Lifelong Learner, Healthcare Leader, Fintech Pioneer, Kenya',
   authors: [{ name: 'Duncun Motanya' }],
   creator: 'Duncun Motanya',
   publisher: 'Duncun Motanya',
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://iamduncun.co.ke'),
   openGraph: {
-    title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
-    description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya.',
+    title: 'Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+    description: 'Dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst.',
     url: 'https://iamduncun.co.ke',
     siteName: 'Duncun Motanya',
     images: [
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Duncun Motanya - Empowering Communities through Health & Fintech',
-    description: 'Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). Chairperson – Fintech Association of Kenya.',
+    title: 'Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+    description: 'Dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst.',
     images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1756953563/Duncun-motanya_u3ulci.png'],
     creator: '@duncunmotanya',
   },

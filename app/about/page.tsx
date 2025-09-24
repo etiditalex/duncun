@@ -14,12 +14,12 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
-  description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
-  keywords: 'Duncun Motanya Biography, Healthcare Leader Kenya, Fintech Pioneer, Diabetes Educator, DMMC Pharmacy Founder, FINTAK Chairperson, Community Development, Kenya Healthcare Innovation',
+  title: 'About Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+  description: 'Meet Duncun Motanya: A dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst.',
+  keywords: 'Duncun Motanya, Dynamic Leader, Coach, Empathy, Self-Believer, Philomath, Catalyst, People-Centered Growth, Motivator, Lifelong Learner, Healthcare Leader, Fintech Pioneer',
   openGraph: {
-    title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
-    description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
+    title: 'About Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+    description: 'Meet Duncun Motanya: A dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst.',
     url: 'https://iamduncun.co.ke/about',
     images: [
       {
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Duncun Motanya - Healthcare & Fintech Leader | Biography & Career Journey',
-    description: 'Discover Duncun Motanya\'s inspiring journey from Kisii to Nairobi. Learn about his leadership in healthcare innovation, fintech advancement, and community development across Kenya.',
+    title: 'About Duncun Motanya - Dynamic Leader, Coach & Catalyst | People-Centered Growth',
+    description: 'Meet Duncun Motanya: A dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth. Coach, Empath, Self-Believer, Philomath, and Catalyst.',
     images: ['https://res.cloudinary.com/dyfnobo9r/image/upload/v1758565058/DM_1_obizjh_ukg1qb.png'],
   },
   alternates: {
@@ -113,22 +113,69 @@ export default function About() {
             <div>
               <SectionHeader
                 title="About Duncun Motanya"
-                subtitle="Leadership & Vision"
-                description="A dedicated leader combining healthcare expertise with fintech innovation to create meaningful impact across Kenya."
+                subtitle="Dynamic Leader & People-Centered Catalyst"
+                description="A dynamic leader and collaborator who thrives at the intersection of motivation, learning, and people-centered growth."
                 centered={false}
               />
               
-              <div className="mt-8 space-y-4">
-                <p className="text-gray-600 leading-relaxed">
-                  Diabetes Educator, Marketer & Life Student. Founder & MD – Diabetes Management Resource Center (Kenya). 
-                  Founder/CEO – DMMC Online Pharmacy. Founder/Director/CEO – Executive Funeral Services Kisii. 
-                  Chairperson – Fintech Association of Kenya.
-                </p>
+              <div className="mt-8 space-y-6">
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <h3 className="text-xl font-heading font-semibold text-gray-900 mb-4">360° Leadership Profile</h3>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    At his core, Duncun is a <strong>Coach</strong>—deeply invested in nurturing potential and empowering others to achieve their best. 
+                    He actively supports growth, pushes people to stretch beyond limits, and remains committed to seeing talent fully realized rather than wasted.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    He combines this with strong <strong>Empathy</strong>, making him adept at understanding people's emotions and motivations. 
+                    His instinct to consider human impact ensures he builds trust quickly and fosters meaningful relationships.
+                  </p>
+                </div>
                 
-                <p className="text-gray-600 leading-relaxed">
-                  Former Country Sales Manager – Premier Credit Kenya. Former Regional Manager (Nyanza/Western/Coast) – 
-                  Platinum Credit Kenya. Lives in Nairobi; from Kisii, Kenya.
-                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <h4 className="text-lg font-heading font-semibold text-gray-900 mb-3">Core Strengths</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Motivator & People Developer</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Empathetic Listener</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Confident Decision-Maker</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Initiator of Momentum</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-white rounded-xl p-6 shadow-lg">
+                    <h4 className="text-lg font-heading font-semibold text-gray-900 mb-3">Leadership Style</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Self-Believer with Strong Internal Compass</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Philomath - Lifelong Learner</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>Natural Catalyst for Change</span>
+                      </li>
+                      <li className="flex items-start space-x-2">
+                        <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <span>People-First Mindset</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -159,8 +206,51 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* How He Works Best */}
       <section className="section-padding">
+        <div className="container-custom">
+          <SectionHeader
+            title="How He Works Best"
+            subtitle="Collaborative Excellence"
+            description="Understanding Duncun's optimal working environment and what to expect when partnering with him."
+          />
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                <Users className="w-6 h-6 text-green-500" />
+              </div>
+              <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">Collaborative Environments</h3>
+              <p className="text-gray-600 text-sm">
+                Thrives in environments where learning and innovation are valued, with the freedom to act decisively and inspire growth.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <TrendingUp className="w-6 h-6 text-blue-500" />
+              </div>
+              <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">What to Expect</h3>
+              <p className="text-gray-600 text-sm">
+                Energy, clarity, curiosity, and a people-first mindset. Brings both the drive to act and the sensitivity to connect.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                <Award className="w-6 h-6 text-yellow-500" />
+              </div>
+              <h3 className="text-lg font-heading font-semibold text-gray-900 mb-3">Watch-Outs</h3>
+              <p className="text-gray-600 text-sm">
+                May be impatient with bureaucracy or slow processes; can resist being micromanaged; needs balance between empathy and logic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission & Vision */}
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl p-8 text-white">
